@@ -1,0 +1,120 @@
+
+.table-li{
+    color: #566787;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+}
+.table-responsive {
+    /* margin: 30px 30px; */
+    /* margin-top: 20px; */
+
+}
+.table-wrapper {
+  	/* min-width: 1000px; */
+    background: #fff;
+    /* padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5); */
+}
+.table-title {
+    color: #fff;
+    background: #40b2cd;		
+    padding: 5px 25px;
+    margin: -10px -15px 20px;
+    border-radius: 10px;
+}
+/* .table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+} */
+.search-box {
+    position: relative;
+    margin-left: 0px;
+    right: 0px;
+    
+}
+.search-box .input-group {
+    min-width: 250px;
+    border-radius: 20px;
+    /* position: absolute; */
+    right: 0;
+}
+.search-box .input-group-addon, .search-box input {
+    border-color: #ddd;
+    border-radius: 30px;
+}	
+.search-box input {
+    height: 34px;
+    padding-right: 35px;
+    background: #f4fcfd;
+    border: none;
+    border-radius: 50px !important;
+}
+.search-box input:focus {
+    background: #fff;
+}
+.search-box input::placeholder {
+    font-style: italic;
+}
+.search-box .input-group-addon {
+    min-width: 35px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    padding: 6px 0;
+}
+.search-box i {
+    color: #a0a5b1;
+    font-size: 17px;
+    position: relative;
+    top: 2px;
+}
+table.table {
+    /* table-layout: fixed; */
+    /* margin-top: -15px; */
+}
+table.table tr th, table.table tr td {
+    border-color: #7e7e7e;
+}
+/* table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+} */
+/* table.table th:first-child {
+    width: 60px;
+}
+table.table th:last-child {
+    width: 120px;
+} */
+/* table.table td a {
+    color: #a0a5b1;
+    display: inline-block;
+    margin: 0 5px;
+} */
+table.table td a.view {
+    color: #03A9F4;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 20px;
+}
+
+
+table{
+    /* table-layout: fixed; */
+}
+td{
+    width: 10%;
+}
+.today{
+    background: yellow;
+}
+
+/* .modal-dialog {
+    margin-top:10%;
+} */

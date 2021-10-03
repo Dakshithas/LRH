@@ -1,0 +1,113 @@
+body {
+    /* padding-top: 56px; */
+}
+
+.sticky-offset {
+    top: 56px;
+}
+
+#body-row {
+    margin-left:0;
+    margin-right:100;
+}
+#sidebar-container{
+    min-height: calc(100vh);
+    background-color: #333;
+    padding: 0;
+    position: fixed;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+}
+.menu{
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;  
+}
+
+.sidebar-expanded {
+    width: 16%;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+#sidebar-container .list-group a,#sidebar-container .list-group .btm,#sidebar-container .list-group .btn {
+    /* height: 50px; */
+    color: white;
+    border-bottom: 1px solid #f0f4f7;
+    
+}
+#sidebar-container .list-group a:hover,#sidebar-container .list-group .btm:hover,#sidebar-container .list-group .btn:hover {
+    border-left: 5px solid wheat;
+}
+
+#sidebar-container .list-group .sidebar-submenu a, #sidebar-container .list-group .sidebar-submenu .btn {
+    /* height: 45px; */
+    margin-left: 10px;
+    font-size: 15px;
+}
+#sidebar-container .list-group .sidebar-submenu a:hover, #sidebar-container .list-group .sidebar-submenu .btn:hover{
+    border-left: 5px solid wheat;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+.sidebar-separator-title {
+    background-color: #333;
+    /* height: 35px; */
+}
+.sidebar-separator {
+    background-color: #333;
+    /* height: 25px; */
+}
+.logo-separator {
+    background-color: #333;    
+    /* height: 60px; */
+}
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+.profile{
+    margin-top: 80px;
+    color:whitesmoke;
+    text-align: center;
+}
+
+
+.profile-userpic img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+    float: none;
+    margin: auto;
+    /* margin-top: 30px; */
+    border-radius: 50%;
+    /* height: 50%; */
+    /* -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important; */
+  }
+.profile p{
+    font-size: 14px;
+    font-family: Apple Chancery, cursive;
+    /* font-family: monospace; */
+    font-style: oblique;
+    ​font-weight: lighter;
+}
